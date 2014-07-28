@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F4E82E1983B2E40074CF14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4E82D1983B2E40074CF14 /* AppDelegate.swift */; };
+		18F4E8301983B2E40074CF14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4E82F1983B2E40074CF14 /* ViewController.swift */; };
+		18F4E8331983B2E40074CF14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F4E8311983B2E40074CF14 /* Main.storyboard */; };
+		18F4E8351983B2E40074CF14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F4E8341983B2E40074CF14 /* Images.xcassets */; };
+		18F4E8411983B2E40074CF14 /* PulsingRadar_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4E8401983B2E40074CF14 /* PulsingRadar_SwiftTests.swift */; };
+		18F4E84B1983B33E0074CF14 /* PulsingRadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4E84A1983B33E0074CF14 /* PulsingRadarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F4E83B1983B2E40074CF14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F4E8201983B2E40074CF14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F4E8271983B2E40074CF14;
+			remoteInfo = "PulsingRadar-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F4E8281983B2E40074CF14 /* PulsingRadar-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PulsingRadar-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F4E82C1983B2E40074CF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F4E82D1983B2E40074CF14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18F4E82F1983B2E40074CF14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18F4E8321983B2E40074CF14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F4E8341983B2E40074CF14 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18F4E83A1983B2E40074CF14 /* PulsingRadar-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PulsingRadar-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F4E83F1983B2E40074CF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F4E8401983B2E40074CF14 /* PulsingRadar_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingRadar_SwiftTests.swift; sourceTree = "<group>"; };
+		18F4E84A1983B33E0074CF14 /* PulsingRadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsingRadarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F4E8251983B2E40074CF14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F4E8371983B2E40074CF14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F4E81F1983B2E40074CF14 = {
+			isa = PBXGroup;
+			children = (
+				18F4E82A1983B2E40074CF14 /* PulsingRadar-Swift */,
+				18F4E83D1983B2E40074CF14 /* PulsingRadar-SwiftTests */,
+				18F4E8291983B2E40074CF14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F4E8291983B2E40074CF14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F4E8281983B2E40074CF14 /* PulsingRadar-Swift.app */,
+				18F4E83A1983B2E40074CF14 /* PulsingRadar-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F4E82A1983B2E40074CF14 /* PulsingRadar-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				18F4E82D1983B2E40074CF14 /* AppDelegate.swift */,
+				18F4E82F1983B2E40074CF14 /* ViewController.swift */,
+				18F4E84A1983B33E0074CF14 /* PulsingRadarView.swift */,
+				18F4E8311983B2E40074CF14 /* Main.storyboard */,
+				18F4E8341983B2E40074CF14 /* Images.xcassets */,
+				18F4E82B1983B2E40074CF14 /* Supporting Files */,
+			);
+			path = "PulsingRadar-Swift";
+			sourceTree = "<group>";
+		};
+		18F4E82B1983B2E40074CF14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F4E82C1983B2E40074CF14 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F4E83D1983B2E40074CF14 /* PulsingRadar-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F4E8401983B2E40074CF14 /* PulsingRadar_SwiftTests.swift */,
+				18F4E83E1983B2E40074CF14 /* Supporting Files */,
+			);
+			path = "PulsingRadar-SwiftTests";
+			sourceTree = "<group>";
+		};
+		18F4E83E1983B2E40074CF14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F4E83F1983B2E40074CF14 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F4E8271983B2E40074CF14 /* PulsingRadar-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F4E8441983B2E40074CF14 /* Build configuration list for PBXNativeTarget "PulsingRadar-Swift" */;
+			buildPhases = (
+				18F4E8241983B2E40074CF14 /* Sources */,
+				18F4E8251983B2E40074CF14 /* Frameworks */,
+				18F4E8261983B2E40074CF14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PulsingRadar-Swift";
+			productName = "PulsingRadar-Swift";
+			productReference = 18F4E8281983B2E40074CF14 /* PulsingRadar-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F4E8391983B2E40074CF14 /* PulsingRadar-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F4E8471983B2E40074CF14 /* Build configuration list for PBXNativeTarget "PulsingRadar-SwiftTests" */;
+			buildPhases = (
+				18F4E8361983B2E40074CF14 /* Sources */,
+				18F4E8371983B2E40074CF14 /* Frameworks */,
+				18F4E8381983B2E40074CF14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F4E83C1983B2E40074CF14 /* PBXTargetDependency */,
+			);
+			name = "PulsingRadar-SwiftTests";
+			productName = "PulsingRadar-SwiftTests";
+			productReference = 18F4E83A1983B2E40074CF14 /* PulsingRadar-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F4E8201983B2E40074CF14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ZA;
+				TargetAttributes = {
+					18F4E8271983B2E40074CF14 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					18F4E8391983B2E40074CF14 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 18F4E8271983B2E40074CF14;
+					};
+				};
+			};
+			buildConfigurationList = 18F4E8231983B2E40074CF14 /* Build configuration list for PBXProject "PulsingRadar-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F4E81F1983B2E40074CF14;
+			productRefGroup = 18F4E8291983B2E40074CF14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F4E8271983B2E40074CF14 /* PulsingRadar-Swift */,
+				18F4E8391983B2E40074CF14 /* PulsingRadar-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F4E8261983B2E40074CF14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F4E8331983B2E40074CF14 /* Main.storyboard in Resources */,
+				18F4E8351983B2E40074CF14 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F4E8381983B2E40074CF14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F4E8241983B2E40074CF14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F4E84B1983B33E0074CF14 /* PulsingRadarView.swift in Sources */,
+				18F4E8301983B2E40074CF14 /* ViewController.swift in Sources */,
+				18F4E82E1983B2E40074CF14 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F4E8361983B2E40074CF14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F4E8411983B2E40074CF14 /* PulsingRadar_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F4E83C1983B2E40074CF14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F4E8271983B2E40074CF14 /* PulsingRadar-Swift */;
+			targetProxy = 18F4E83B1983B2E40074CF14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F4E8311983B2E40074CF14 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F4E8321983B2E40074CF14 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F4E8421983B2E40074CF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F4E8431983B2E40074CF14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F4E8451983B2E40074CF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "PulsingRadar-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18F4E8461983B2E40074CF14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "PulsingRadar-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		18F4E8481983B2E40074CF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PulsingRadar-Swift.app/PulsingRadar-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PulsingRadar-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		18F4E8491983B2E40074CF14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PulsingRadar-Swift.app/PulsingRadar-Swift";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PulsingRadar-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F4E8231983B2E40074CF14 /* Build configuration list for PBXProject "PulsingRadar-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F4E8421983B2E40074CF14 /* Debug */,
+				18F4E8431983B2E40074CF14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F4E8441983B2E40074CF14 /* Build configuration list for PBXNativeTarget "PulsingRadar-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F4E8451983B2E40074CF14 /* Debug */,
+				18F4E8461983B2E40074CF14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F4E8471983B2E40074CF14 /* Build configuration list for PBXNativeTarget "PulsingRadar-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F4E8481983B2E40074CF14 /* Debug */,
+				18F4E8491983B2E40074CF14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F4E8201983B2E40074CF14 /* Project object */;
+}
