@@ -11,14 +11,18 @@ import QuartzCore
 
 class PRButton: UIButton {
     
-    init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         self.alpha = 0
+    }
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
     override func didMoveToWindow() {
         super.didMoveToWindow()
-        if self.window {
+        if self.window != nil {
             UIView.animateWithDuration(1, animations: {
                 self.alpha = 1
             })
@@ -45,7 +49,7 @@ class PulsingRadarView: UIView {
     var items = NSMutableArray()
     weak var animationLayer: CALayer?
     
-    init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         
         NSNotificationCenter.defaultCenter().addObserver(self,
@@ -53,10 +57,14 @@ class PulsingRadarView: UIView {
                                                          name: UIApplicationDidBecomeActiveNotification,
                                                          object: nil)
     }
+
+    required init(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
     func resume() {
-        if self.animationLayer {
-            self.animationLayer?.removeFromSuperlayer()
+        if let animationLayer = self.animationLayer {
+            animationLayer.removeFromSuperlayer()
             self.setNeedsDisplay()
         }
     }
@@ -65,7 +73,7 @@ class PulsingRadarView: UIView {
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }
     
-    public func addOrReplaceItem() {
+    func addOrReplaceItem() {
         let maxCount = 10
         
         var radarButton = PRButton(frame: CGRectMake(0, 0, itemSize.width, itemSize.height))

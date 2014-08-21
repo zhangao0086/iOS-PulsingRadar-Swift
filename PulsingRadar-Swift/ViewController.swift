@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var radarView: PulsingRadarView?
+    var radarView: PulsingRadarView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
