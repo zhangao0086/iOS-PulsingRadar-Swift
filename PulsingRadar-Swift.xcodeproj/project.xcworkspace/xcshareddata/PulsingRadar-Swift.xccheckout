@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3E1DECAC-4819-4A77-814E-4AA384037C9B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PulsingRadar-Swift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2DAA53AE210454AF62B85271D06A589B0AF35BCA</key>
+		<string>https://github.com/zhangao0086/iOS-PulsingRadar-Swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PulsingRadar-Swift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2DAA53AE210454AF62B85271D06A589B0AF35BCA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhangao0086/iOS-PulsingRadar-Swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2DAA53AE210454AF62B85271D06A589B0AF35BCA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2DAA53AE210454AF62B85271D06A589B0AF35BCA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSPulsingRadarSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
