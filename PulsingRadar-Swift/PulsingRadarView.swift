@@ -88,7 +88,7 @@ class PulsingRadarView: UIView {
         items.addObject(radarButton)
         
         if items.count > maxCount {
-            var view = items.objectAtIndex(0) as UIView
+            var view = items.objectAtIndex(0) as! UIView
             view.removeFromSuperview()
             items.removeObject(view)
         }
