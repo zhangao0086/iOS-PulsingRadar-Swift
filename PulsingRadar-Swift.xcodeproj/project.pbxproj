@@ -13,6 +13,7 @@
 		18F4E8351983B2E40074CF14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F4E8341983B2E40074CF14 /* Images.xcassets */; };
 		18F4E8411983B2E40074CF14 /* PulsingRadar_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4E8401983B2E40074CF14 /* PulsingRadar_SwiftTests.swift */; };
 		18F4E84B1983B33E0074CF14 /* PulsingRadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4E84A1983B33E0074CF14 /* PulsingRadarView.swift */; };
+		9CCEE2ED1BA90822005CD1A1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCEE2EC1BA90822005CD1A1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		18F4E83F1983B2E40074CF14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F4E8401983B2E40074CF14 /* PulsingRadar_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingRadar_SwiftTests.swift; sourceTree = "<group>"; };
 		18F4E84A1983B33E0074CF14 /* PulsingRadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulsingRadarView.swift; sourceTree = "<group>"; };
+		9CCEE2EC1BA90822005CD1A1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				18F4E82F1983B2E40074CF14 /* ViewController.swift */,
 				18F4E84A1983B33E0074CF14 /* PulsingRadarView.swift */,
 				18F4E8311983B2E40074CF14 /* Main.storyboard */,
+				9CCEE2EC1BA90822005CD1A1 /* Launch Screen.storyboard */,
 				18F4E8341983B2E40074CF14 /* Images.xcassets */,
 				18F4E82B1983B2E40074CF14 /* Supporting Files */,
 			);
@@ -156,7 +159,8 @@
 		18F4E8201983B2E40074CF14 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = ZA;
 				TargetAttributes = {
 					18F4E8271983B2E40074CF14 = {
@@ -192,6 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CCEE2ED1BA90822005CD1A1 /* Launch Screen.storyboard in Resources */,
 				18F4E8331983B2E40074CF14 /* Main.storyboard in Resources */,
 				18F4E8351983B2E40074CF14 /* Images.xcassets in Resources */,
 			);
@@ -267,6 +272,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -336,6 +342,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "PulsingRadar-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangao.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -350,6 +357,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "PulsingRadar-Swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangao.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 			};
@@ -369,6 +377,7 @@
 				);
 				INFOPLIST_FILE = "PulsingRadar-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangao.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
@@ -384,6 +393,7 @@
 				);
 				INFOPLIST_FILE = "PulsingRadar-SwiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhangao.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
@@ -408,6 +418,7 @@
 				18F4E8461983B2E40074CF14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18F4E8471983B2E40074CF14 /* Build configuration list for PBXNativeTarget "PulsingRadar-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +427,7 @@
 				18F4E8491983B2E40074CF14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

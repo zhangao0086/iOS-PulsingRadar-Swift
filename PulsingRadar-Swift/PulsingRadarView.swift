@@ -76,11 +76,11 @@ class PulsingRadarView: UIView {
     func addOrReplaceItem() {
         let maxCount = 10
         
-        var radarButton = PRButton(frame: CGRectMake(0, 0, itemSize.width, itemSize.height))
+        let radarButton = PRButton(frame: CGRectMake(0, 0, itemSize.width, itemSize.height))
         radarButton.setImage(UIImage(named: "UK"), forState: UIControlState.Normal)
         
-        do {
-            var center = generateCenterPointInRadar()
+        repeat {
+            let center = generateCenterPointInRadar()
             radarButton.center = CGPointMake(center.x, center.y)
         } while (itemFrameIntersectsInOtherItem(radarButton.frame))
         
@@ -88,7 +88,7 @@ class PulsingRadarView: UIView {
         items.addObject(radarButton)
         
         if items.count > maxCount {
-            var view = items.objectAtIndex(0) as! UIView
+            let view = items.objectAtIndex(0) as! UIView
             view.removeFromSuperview()
             items.removeObject(view)
         }
@@ -104,10 +104,10 @@ class PulsingRadarView: UIView {
     }
     
     private func generateCenterPointInRadar() -> CGPoint{
-        var angle = Double(arc4random()) % 360
-        var radius = Double(arc4random()) % (Double)((self.bounds.size.width - itemSize.width)/2)
-        var x = cos(angle) * radius
-        var y = sin(angle) * radius
+        let angle = Double(arc4random()) % 360
+        let radius = Double(arc4random()) % (Double)((self.bounds.size.width - itemSize.width)/2)
+        let x = cos(angle) * radius
+        let y = sin(angle) * radius
         return CGPointMake(CGFloat(x) + self.bounds.size.width / 2, CGFloat(y) + self.bounds.size.height / 2)
     }
     
@@ -118,28 +118,28 @@ class PulsingRadarView: UIView {
         let pulsingCount = 6
         let animationDuration: Double = 4
 
-        var animationLayer = CALayer()
+        let animationLayer = CALayer()
         for var i = 0; i < pulsingCount; i++ {
-            var pulsingLayer = CALayer()
+            let pulsingLayer = CALayer()
             pulsingLayer.frame = CGRectMake(0, 0, rect.size.width, rect.size.height)
             pulsingLayer.borderColor = UIColor.grayColor().CGColor
             pulsingLayer.borderWidth = 1
             pulsingLayer.cornerRadius = rect.size.height / 2
             
-            var defaultCurve = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault)
+            let defaultCurve = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault)
             
-            var animationGroup = CAAnimationGroup()
+            let animationGroup = CAAnimationGroup()
             animationGroup.fillMode = kCAFillModeBackwards
             animationGroup.beginTime = CACurrentMediaTime() + Double(i) * animationDuration / Double(pulsingCount)
             animationGroup.duration = animationDuration
             animationGroup.repeatCount = HUGE
             animationGroup.timingFunction = defaultCurve
             
-            var scaleAnimation = CABasicAnimation(keyPath: "transform.scale")
+            let scaleAnimation = CABasicAnimation(keyPath: "transform.scale")
             scaleAnimation.fromValue = Double(0)
             scaleAnimation.toValue = Double(1.5)
             
-            var opacityAnimation = CAKeyframeAnimation(keyPath: "opacity")
+            let opacityAnimation = CAKeyframeAnimation(keyPath: "opacity")
             opacityAnimation.values = [Double(1),Double(0.7),Double(0)]
             opacityAnimation.keyTimes = [Double(0),Double(0.5),Double(1)]
             
